@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val btn4: Button = findViewById(R.id.btn4)
         val btnAdd: Button = findViewById(R.id.btnAdd)
         val btnEqual: Button = findViewById(R.id.btnEquals)
-
+//check
         btn1.setOnClickListener {
             tvResult.text = tvResult.text.toString() + "1"
         }
